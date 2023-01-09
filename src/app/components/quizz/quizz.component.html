@@ -1,0 +1,22 @@
+<div class="container">
+
+    <div class="logo">
+        <img src="assets/imgs/logo.png" alt="">
+        <h3>{{title}}</h3>
+    </div>
+
+    <div *ngIf=!finished class="questoes">
+        <h3>{{questionSelected.question}}</h3>
+    </div>
+
+    <div *ngIf=!finished class="opcoes">
+        <button *ngFor="let option of questionSelected.options; let i = index" class="btnOpcao" (click)="playerChoose(option.alias)">
+            {{option.name}}
+        </button>
+    </div>
+
+    <div *ngIf=finished class="resultado">
+        <h1>Seu resultado é:</h1>
+        <p>{{answerSelected}}</p>
+    </div>
+</div>

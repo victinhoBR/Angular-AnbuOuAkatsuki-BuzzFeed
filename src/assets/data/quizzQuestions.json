@@ -1,0 +1,55 @@
+{
+    "title":"Você seria da Ambu ou da Akatsuk ?",
+    "questions":[
+      {
+        "id":1,
+        "question": "De que forma você se comportaria ?",
+        "options":[
+          {"id": 1, "name":"Faria oque me desse vontade", "alias":"A"},
+          {"id": 2, "name":"Buscaria minha melhora física e mental", "alias":"B"},
+          {"id": 3, "name":"Buscaria a paz de qualquer forma, mesmo que não seja legal", "alias":"A"},
+          {"id": 4, "name":"Procuraria desenvolver as missões com o maior exito possivel", "alias":"B"},
+          {"id": 5, "name":"Procuraria desenvolver as missões a qualquer custo", "alias":"A"}
+        ]
+      },
+      {
+        "id":2,
+        "question": "Quem te governaria ?",
+        "options":[
+          {"id": 1, "name":"Um Ninja mais forte que eu", "alias":"A"},
+          {"id": 2, "name":"Eu", "alias":"A"},
+          {"id": 3, "name":"O Lider e o Hokage", "alias":"B"}
+        ]
+      },
+      {
+        "id":3,
+        "question": "Qual a sua maior preocupação ao enfretar outros ninjas ?",
+        "options":[
+          {"id": 1, "name":"Agir com frieza e agilidade", "alias":"B"},
+          {"id": 2, "name":"Destruir tudo e todos", "alias":"A"},
+          {"id": 3, "name":"Matar o adversario e tudo que tiver ao meu alcance", "alias":"A"},
+          {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        ]
+      },
+      {
+        "id":4,
+        "question": "Qual sua vestimenta",
+        "options":[
+          {"id": 1, "name":"Um manto preto com nuvens vermelhas", "alias":"A"},
+          {"id": 2, "name":"Uma mascara de gatinho e um peitoral", "alias":"B"}
+        ]
+      },
+      {
+        "id":5,
+        "question": "Ao te avistarem, oque falariam ?",
+        "options":[
+          {"id": 1, "name":"'Protejam-se'", "alias":"A"},
+          {"id": 2, "name":"'Quem será que ele é?'", "alias":"B"}
+        ]
+      }
+    ],
+    "results":{
+      "A": "Você muito provavelmente seria da Akatsuk!",
+      "B": "Você muito provavelmente seria da Anbu!"
+    }
+  }
